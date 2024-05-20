@@ -1,0 +1,125 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Rubik-Black.ttf",
+      "sha1": "1d564ff40c2506b66fbae8983674fcc6f50332cf"
+    },
+    {
+      "path": "assets/fonts/Rubik-BlackItalic.ttf",
+      "sha1": "033e3229f6548d4b9241406f8613217811d1c484"
+    },
+    {
+      "path": "assets/fonts/Rubik-Bold.ttf",
+      "sha1": "0b3d2153576f8ec576af1c89e4793a3dcf0ebb0c"
+    },
+    {
+      "path": "assets/fonts/Rubik-BoldItalic.ttf",
+      "sha1": "6e13f686165a725698733d40cdc08beaefc60860"
+    },
+    {
+      "path": "assets/fonts/Rubik-ExtraBold.ttf",
+      "sha1": "1647fe9245b610f1b5ac101a3234cc3d8f6051b9"
+    },
+    {
+      "path": "assets/fonts/Rubik-ExtraBoldItalic.ttf",
+      "sha1": "82b102196902ef73a92db1aa1da90b16c953841a"
+    },
+    {
+      "path": "assets/fonts/Rubik-Italic.ttf",
+      "sha1": "ddba45e218ec4a1bdff496fcfef9932fa30c82c0"
+    },
+    {
+      "path": "assets/fonts/Rubik-Light.ttf",
+      "sha1": "2bc14068c355425f472f6a97b69c5c468bc863a3"
+    },
+    {
+      "path": "assets/fonts/Rubik-LightItalic.ttf",
+      "sha1": "a3c49755eadf8edf5b479591720d234feb9caaf0"
+    },
+    {
+      "path": "assets/fonts/Rubik-Medium.ttf",
+      "sha1": "7b93e52dc59bc6eb3b374b860c203cbe726c3c31"
+    },
+    {
+      "path": "assets/fonts/Rubik-MediumItalic.ttf",
+      "sha1": "1eb6e92dea262c4509cbfb66b8638be630dc639f"
+    },
+    {
+      "path": "assets/fonts/Rubik-Regular.ttf",
+      "sha1": "9d7091d63f35c9d28518b06566442a02b306980a"
+    },
+    {
+      "path": "assets/fonts/Rubik-SemiBold.ttf",
+      "sha1": "01a4b4fee8dbf9802ccb6256fdf53b3a86f2fcec"
+    },
+    {
+      "path": "assets/fonts/Rubik-SemiBoldItalic.ttf",
+      "sha1": "d5b3099c28cf63567f3d9eac452fd02fb3721f02"
+    },
+    {
+      "path": "assets/fonts/VisbyBold Italic.otf",
+      "sha1": "6729b71a71aa375f3fd9af08424bc1893be3eb71"
+    },
+    {
+      "path": "assets/fonts/VisbyBold.otf",
+      "sha1": "04ec39a46ffacc7a717f89eb32dfc13c1bd6bf02"
+    },
+    {
+      "path": "assets/fonts/VisbyExtrabold Italic.otf",
+      "sha1": "0330834d92ce4bc2ae513217c581cf480a8be353"
+    },
+    {
+      "path": "assets/fonts/VisbyExtrabold.otf",
+      "sha1": "0cfde9a242ed450ec856fa28bdb0bad4f2934972"
+    },
+    {
+      "path": "assets/fonts/VisbyHeavy Italic.otf",
+      "sha1": "f00e72d3eeb4d8de98077e3b61b1f80190b2dde0"
+    },
+    {
+      "path": "assets/fonts/VisbyHeavy.otf",
+      "sha1": "4971e6581e31279c4df50cee66d446475115652e"
+    },
+    {
+      "path": "assets/fonts/VisbyItalic.otf",
+      "sha1": "e8fa70a6e99d4777c7cda84a35c1032d29f3b315"
+    },
+    {
+      "path": "assets/fonts/VisbyLight Italic.otf",
+      "sha1": "176c73e601c00ead45253a9ce5d211e0ff8a05ec"
+    },
+    {
+      "path": "assets/fonts/VisbyLight.otf",
+      "sha1": "f9b85a8c16dbb7e12184ac46a5885c21c09dc20c"
+    },
+    {
+      "path": "assets/fonts/VisbyMedium Italic.otf",
+      "sha1": "d63899279a27784e9762b282fba3a1129e813a52"
+    },
+    {
+      "path": "assets/fonts/VisbyMedium.otf",
+      "sha1": "692b1cb9423e4527897890302e6628be21623a05"
+    },
+    {
+      "path": "assets/fonts/VisbyRegular.otf",
+      "sha1": "d37070d866e3d3596d23054272593afe50226a41"
+    },
+    {
+      "path": "assets/fonts/VisbySemibold Italic.otf",
+      "sha1": "e0ad1b52d509935d02f0ba8899df2ad77edb17ad"
+    },
+    {
+      "path": "assets/fonts/VisbySemibold.otf",
+      "sha1": "890e57fc60d32d759b85e51b242845e062f87512"
+    },
+    {
+      "path": "assets/fonts/VisbyThin Italic.otf",
+      "sha1": "a12342836b264afab3f8f287f3590ccdc67dde43"
+    },
+    {
+      "path": "assets/fonts/VisbyThin.otf",
+      "sha1": "d724222c4afea1086a491c046fbb213681b06c97"
+    }
+  ]
+}
