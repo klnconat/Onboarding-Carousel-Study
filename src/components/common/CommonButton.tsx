@@ -9,7 +9,7 @@ type CommonButtonProps = {
 
 const CommonButton = (props: CommonButtonProps) => {
   return (
-    <TouchableOpacity style={[styles.box, props.customStyle]} onPress={props.onPress}>
+    <TouchableOpacity style={[styles.box, props.customStyle]} onPress={props.onPress} testID="CommonButton">
       <Text style={styles.buttonText}>{props.buttonText}</Text>
     </TouchableOpacity>
   );

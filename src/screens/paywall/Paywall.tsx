@@ -1,5 +1,6 @@
-import {SafeAreaView, ScrollView, StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
+import { ScrollView } from 'react-native-gesture-handler';
 
 import ImageSection from '../../components/paywall/ImageSection';
 import SubscriptionPackageSection from '../../components/paywall/SubscriptionPackageSection';

@@ -13,9 +13,9 @@ import MainImage from '../../assets/onboarding/secondOnboardingMainImage.png';
 import OverlayImage from '../../assets/onboarding/secondOnboardingOverlayImage.png';
 
 const SecondItemImageSection = () => {
-  const backgroundImage = Image.resolveAssetSource(BackgroundImage).uri;
-  const mainImage = Image.resolveAssetSource(MainImage).uri;
-  const overlayImage = Image.resolveAssetSource(OverlayImage).uri;
+  const backgroundImage = Image.resolveAssetSource(BackgroundImage)?.uri;
+  const mainImage = Image.resolveAssetSource(MainImage)?.uri;
+  const overlayImage = Image.resolveAssetSource(OverlayImage)?.uri;
 
   return (
     <View style={styles.mainView}>
@@ -48,9 +48,9 @@ const styles = StyleSheet.create({
     marginTop: 80,
     width: 270,
     height: 560,
-    zIndex: 1,
   },
   overlayImage: {
+    zIndex: 100,
     position: 'absolute',
     top: -45,
     right: 20,

@@ -7,10 +7,10 @@ import {
 import MainPage from '../../assets/onboarding/firstOnboardingMainImage.png';
 
 const FirstItemImageSection = () => {
-  const mainImage = Image.resolveAssetSource(MainPage).uri;
+  const mainImage = Image.resolveAssetSource(MainPage)?.uri;
 
   return (
-      <Image source={{uri: mainImage}} style={styles.mainImage} />
+      <Image source={{uri: mainImage}} style={styles.mainImage} testID="FirstItemImageSection" />
   );
 };
 

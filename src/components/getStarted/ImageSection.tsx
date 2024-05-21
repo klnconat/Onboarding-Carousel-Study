@@ -1,10 +1,10 @@
 import React from 'react';
-import {StyleSheet, Text, View, Image} from 'react-native';
+import {StyleSheet, Image} from 'react-native';
 
 import MainImage from '../../assets/getStarted/mainImage.png';
 
 const ImageSection = () => {
-  const mainImageUri = Image.resolveAssetSource(MainImage).uri;
+  const mainImageUri = Image.resolveAssetSource(MainImage)?.uri;
   return <Image source={{uri: mainImageUri}} style={styles.mainImage} />;
 };
 

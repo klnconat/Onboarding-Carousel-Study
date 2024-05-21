@@ -3,9 +3,6 @@ import {
   StyleSheet,
   Image,
   View,
-  ImageBackground,
-  Dimensions,
-  Text,
 } from 'react-native';
 
 import Header from '../../components/onboarding/Header';
@@ -16,12 +13,13 @@ import Title from '../../assets/onboarding/secondOnboardingTitle.png';
 
 type SecondCarouselItemProps = {
   setIndex: () => void;
+  testID: string;
 };
 
 const SecondCarouselItem = (props: SecondCarouselItemProps) => {
-  const header = Image.resolveAssetSource(Title).uri;
+  const header = Image.resolveAssetSource(Title)?.uri;
   return (
-    <View style={styles.mainView}>
+    <View style={styles.mainView} testID={props.testID}>
       <Header imageUri={header} customStyle={styles.customHeader} />
       <SecondItemImageSection />
       <CommonButton
@@ -47,6 +45,7 @@ const styles = StyleSheet.create({
     height: 49,
     width: 277,
     alignSelf: 'flex-start',
+    zIndex: 999
   },
   customButton: {
     bottom: 60,

@@ -4,11 +4,11 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 
 import HomePage from '../screens/home/HomePage';
 
-import HomeIcon from '../assets/bottomTab/homeIcon';
-import DiagnoseIcon from '../assets/bottomTab/diagnoseIcon';
-import ScanIcon from '../assets/bottomTab/scanIcon';
-import MyGardenIcon from '../assets/bottomTab/myGardenIcon';
-import ProfileIcon from '../assets/bottomTab/profileIcon';
+import HomeIcon from '../assets/bottomTab/homeIcon.svg';
+import DiagnoseIcon from '../assets/bottomTab/diagnoseIcon.svg';
+import ScanIcon from '../assets/bottomTab/scanIcon.svg';
+import MyGardenIcon from '../assets/bottomTab/myGardenIcon.svg';
+import ProfileIcon from '../assets/bottomTab/profileIcon.svg';
 
 const Tab = createBottomTabNavigator();
 

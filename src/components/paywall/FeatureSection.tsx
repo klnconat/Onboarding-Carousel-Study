@@ -1,11 +1,12 @@
 import React from 'react';
-import {StyleSheet, FlatList, View} from 'react-native';
+import {StyleSheet, View} from 'react-native';
+import {FlatList} from 'react-native-gesture-handler';
 
 import {Feature} from '../../types/Feature';
 import FeatureBox from './FeatureBox';
 
-import Scanner from '../../assets/paywall/scanner';
-import Speedometer from '../../assets/paywall/speedometer';
+import Scanner from '../../assets/paywall/scanner.svg';
+import Speedometer from '../../assets/paywall/speedometer.svg';
 
 const FeatureSection = () => {
   const featureDetailList = [

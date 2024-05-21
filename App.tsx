@@ -4,8 +4,7 @@
  *
  * @format
  */
-
-import React, {useEffect, useState} from 'react';
+import React, {useEffect} from 'react';
 import {SafeAreaView, StyleSheet, View, ActivityIndicator} from 'react-native';
 import {useDispatch, useSelector} from 'react-redux';
 import {RootState} from './src/redux/store/configureStore';

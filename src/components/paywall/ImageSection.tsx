@@ -21,7 +21,7 @@ const ImageSection = () => {
   const navigation = useNavigation();
   const dispatch = useDispatch();
 
-  const mainImage = Image.resolveAssetSource(MainImage).uri;
+  const mainImage = Image.resolveAssetSource(MainImage)?.uri;
 
   const onPressButton = () => {
     const user = {

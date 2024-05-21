@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import {StyleSheet, Text, ScrollView, SafeAreaView} from 'react-native';
 
 import WelcomeTextBox from '../../components/home/WelcomeTextBox';
@@ -13,7 +13,7 @@ import ProceedIcon from '../../assets/home/proceedIcon.svg';
 
 const HomePage = () => {
   return (
-    <SafeAreaView style={{flexGrow: 1}}>
+    <SafeAreaView style={{flexGrow: 1}} testID='HomePage'>
       <ScrollView contentContainerStyle={styles.container}>
         <WelcomeTextBox />
         <SearchBox svg={<SearchIcon />} placeholder="Search for plants" />
@@ -23,7 +23,7 @@ const HomePage = () => {
           infoText="Tap to upgrade your account!"
           proceedSvg={<ProceedIcon />}
         />
-        <Text style={styles.getStartedText}>Get Started</Text>
+        <Text style={styles.getStartedText} testID="GetStarted">Get Started</Text>
         <QuestionListBox />
         <CategoryListBox />
       </ScrollView>

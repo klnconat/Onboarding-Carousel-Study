@@ -8,7 +8,7 @@ import RightLeaf from '../../assets/home/rightLeaf.svg';
 
 const SearchBox = (props: SearchBoxProps) => {
   return (
-    <View style={styles.mainView}>
+    <View style={styles.mainView} testID="SearchBox">
       <View style={{transform: [{rotate: '0deg'}]}}>
         <LeftLeaf style={styles.leafContainer} />
       </View>

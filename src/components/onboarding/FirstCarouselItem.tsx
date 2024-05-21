@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet, Image, View, SafeAreaView} from 'react-native';
+import {StyleSheet, Image, View} from 'react-native';
 
 import Header from '../../components/onboarding/Header';
 import FirstItemImageSection from '../../components/onboarding/FirstItemImageSection';
@@ -9,12 +9,13 @@ import Title from '../../assets/onboarding/firstOnboardingTitle.png';
 
 type FirstCarouselItemProps = {
   setIndex: () => void;
+  testID: string;
 };
 
 const FirstCarouselItem = (props: FirstCarouselItemProps) => {
-  const titleImage = Image.resolveAssetSource(Title).uri;
+  const titleImage = Image.resolveAssetSource(Title)?.uri;
   return (
-    <View style={styles.mainView}>
+    <View style={styles.mainView} testID={props.testID}>
       <Header imageUri={titleImage} customStyle={styles.customHeader} />
       <FirstItemImageSection />
       <CommonButton

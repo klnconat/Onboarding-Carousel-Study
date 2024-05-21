@@ -19,8 +19,8 @@ const Carousel = () => {
   };
 
   const data = [
-    <FirstCarouselItem setIndex={increaseActiveIndex} />,
-    <SecondCarouselItem setIndex={increaseActiveIndex}/>,
+    <FirstCarouselItem setIndex={increaseActiveIndex} testID="FirstCarouselItem" />,
+    <SecondCarouselItem setIndex={increaseActiveIndex} testID="SecondCarouselItem"/>,
     <Paywall />,
   ];
 
@@ -34,6 +34,7 @@ const Carousel = () => {
         data={data}
         onSnapToItem={index => setActiveIndex(index)}
         renderItem={({item}) => item}
+        testID="ReanimatedCarousel"
       />
       {activeIndex != 2 && <Pagination activeIndex={activeIndex} />}
     </View>
