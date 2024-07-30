@@ -1,6 +1,6 @@
-# HubxCaseStudy
+# Onboarding-Carousel-Study
 ## Description
-HubxCaseStudy is a React Native application designed to demonstrate a case study implementation. It showcases features such as navigation, state management, local storage, and testing. The project is structured using TypeScript for enhanced type safety and maintainability.
+Onboarding-Carousel-Study is a React Native application designed to demonstrate a case study implementation. It showcases features such as navigation, state management, local storage, and testing. The project is structured using TypeScript for enhanced type safety and maintainability.
 ## Features
 - **React Native with TypeScript**: Leverage the power of TypeScript in a React Native environment.
 - **React Navigation**: Seamless navigation between different screens.
